@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("fondo0.jpg");
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container a {
+    text-decoration: none;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+.texto-container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.perfil-image {
+    width: 300px; /* Ajusta el tamaño deseado */
+    display: block; /* Para centrar la imagen */
+    margin: 0 auto; /* Para centrar la imagen */
+}
+
+.menu-item {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-item:hover {
+    color: rgb(0, 238, 255);
+}
+
+
+
+.special:hover {
+    background-color: rgb(121, 103, 69);
+}

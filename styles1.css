@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("fondo0.jpg");
+    background-size: cover;
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.cake {
+    margin-top: 30px;
+}
+
+.cake img {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cake-info {
+    text-align: left;
+}
+
+.cake-info h2 {
+    color: #333;
+}
+
+.cake-info p {
+    color: #666;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-item:hover {
+    color: rgb(0, 238, 255);
+}
+
+
+
+.special:hover {
+    background-color: rgb(121, 103, 69);
+}
+}
